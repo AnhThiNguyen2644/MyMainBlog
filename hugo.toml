@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/AnhThiNguyen2644/Bloglaptrinh.git'
+baseURL = 'https://anhthinguyen2644.github.io/Bloglaptrinh/'
 publishDir = "docs"
 languageCode = 'vi'
 title = '❉Anh Thi BLOG❉'

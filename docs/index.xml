@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>❉Anh Thi BLOG❉</title>
-    <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/</link>
+    <link>https://anhthinguyen2644.github.io/Bloglaptrinh/</link>
     <description>Recent content on ❉Anh Thi BLOG❉</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>vi</language>
     <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anhthinguyen2644.github.io/Bloglaptrinh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Lập trình Socket TCP cơ bản với Java</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-1-socket-tcp-java/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-1-socket-tcp-java/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-1-socket-tcp-java/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-1-socket-tcp-java/</guid>
       <description>&lt;h3 id=&#34;1-khái-niệm-tcp-socket&#34;&gt;1. Khái niệm TCP Socket&lt;/h3&gt;
 &lt;p&gt;TCP (Transmission Control Protocol) là giao thức hướng kết nối, đảm bảo dữ liệu được truyền đến đúng nơi và đúng thứ tự. Trong Java, chúng ta sử dụng hai lớp chính:&lt;/p&gt;
 &lt;ul&gt;
@@ -40,18 +40,18 @@
     </item>
     <item>
       <title> Xử lý đa luồng (Multithreading) trong Server</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-3-multithreading-socket/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-3-multithreading-socket/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-3-multithreading-socket/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-3-multithreading-socket/</guid>
       <description>&lt;h3 id=&#34;1-tại-sao-server-cần-đa-luồng&#34;&gt;1. Tại sao Server cần Đa luồng?&lt;/h3&gt;
 &lt;p&gt;Trong lập trình mạng, nếu Server chỉ chạy đơn luồng, nó sẽ bị &amp;ldquo;nghẽn&amp;rdquo; (blocking). Khi một Client đang kết nối và gửi dữ liệu, các Client khác muốn kết nối vào sẽ phải xếp hàng đợi.&lt;/p&gt;
 &lt;p&gt;Để giải quyết vấn đề này, chúng ta sử dụng &lt;strong&gt;Multithreading&lt;/strong&gt; để mỗi khi có một khách hàng mới, Server sẽ cử ra một &amp;ldquo;người phục vụ&amp;rdquo; (Thread) riêng cho khách hàng đó.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Đóng gói và giải mã dữ liệu JSON</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-8-json-parsing-javascript/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-8-json-parsing-javascript/</guid>
       <description>&lt;h3 id=&#34;1-json-là-gì&#34;&gt;1. JSON là gì?&lt;/h3&gt;
 &lt;p&gt;JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).&lt;/p&gt;
 &lt;h3 id=&#34;2-thao-tác-với-json-trong-js&#34;&gt;2. Thao tác với JSON trong JS&lt;/h3&gt;
@@ -82,9 +82,9 @@
     </item>
     <item>
       <title>Giao thức UDP trong lập trình mạng Java</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-2-socket-udp-java/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-2-socket-udp-java/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-2-socket-udp-java/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-2-socket-udp-java/</guid>
       <description>&lt;h3 id=&#34;1-tại-sao-dùng-udp&#34;&gt;1. Tại sao dùng UDP?&lt;/h3&gt;
 &lt;p&gt;Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối. Nó gửi các &amp;ldquo;gói tin&amp;rdquo; (Datagram) đi một cách nhanh chóng. Phù hợp cho các ứng dụng như Livestream hoặc Game online.&lt;/p&gt;
 &lt;h3 id=&#34;2-code-ví-dụ-gửi-gói-tin-udp&#34;&gt;2. Code ví dụ gửi gói tin UDP&lt;/h3&gt;
@@ -110,10 +110,10 @@
     </item>
     <item>
       <title>Giới thiệu bản thân</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/about/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/about/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/about/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Avatar của tôi&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/avatar.jpg&#34;&gt;&lt;/p&gt;
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/about/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Avatar của tôi&#34; loading=&#34;lazy&#34; src=&#34;https://anhthinguyen2644.github.io/Bloglaptrinh/avatar.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Chào mừng thầy và các bạn đã ghé thăm Blog cá nhân của mình. 👋
 Đây là nơi mình lưu trữ các kiến thức, bài tập thực hành và đồ án kết thúc học phần &lt;strong&gt;Lập trình mạng&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;-thông-tin-cá-nhân&#34;&gt;👤 Thông tin cá nhân&lt;/h3&gt;
@@ -128,9 +128,9 @@
     </item>
     <item>
       <title>Giới thiệu về kết nối thời gian thực WebSocket</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-9-websocket-basics/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-9-websocket-basics/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-9-websocket-basics/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-9-websocket-basics/</guid>
       <description>&lt;h3 id=&#34;1-websocket-vs-http&#34;&gt;1. WebSocket vs HTTP&lt;/h3&gt;
 &lt;p&gt;Khác với HTTP (Client hỏi - Server trả lời), WebSocket cho phép tạo ra một đường ống kết nối luôn mở, giúp cả hai bên có thể gửi dữ liệu cho nhau bất cứ lúc nào.&lt;/p&gt;
 &lt;h3 id=&#34;2-ví-dụ-websocket-đơn-giản-client&#34;&gt;2. Ví dụ WebSocket đơn giản (Client)&lt;/h3&gt;
@@ -168,16 +168,16 @@
     </item>
     <item>
       <title>Kỷ nguyên AI Agent: Khi AI không còn chỉ biết &#39;Chat&#39;</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/cong-nghe-xin/ky-nguyen-ai-agent/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/cong-nghe-xin/ky-nguyen-ai-agent/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/cong-nghe-xin/ky-nguyen-ai-agent/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/cong-nghe-xin/ky-nguyen-ai-agent/</guid>
       <description>Sự khác biệt giữa Chatbot thụ động và AI Agent chủ động - tương lai của tự động hóa.</description>
     </item>
     <item>
       <title>Lập trình truyền file qua Socket trong Java</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-4-file-transfer-java/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-4-file-transfer-java/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-4-file-transfer-java/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-4-file-transfer-java/</guid>
       <description>&lt;h3 id=&#34;1-nguyên-lý-truyền-file&#34;&gt;1. Nguyên lý truyền file&lt;/h3&gt;
 &lt;p&gt;Để truyền file, chúng ta chuyển file thành mảng các byte (byte array), sau đó gửi mảng byte này qua luồng xuất (&lt;code&gt;OutputStream&lt;/code&gt;) của Socket.&lt;/p&gt;
 &lt;h3 id=&#34;2-code-ví-dụ-gửi-file-client&#34;&gt;2. Code ví dụ gửi file (Client)&lt;/h3&gt;
@@ -194,9 +194,9 @@
     </item>
     <item>
       <title>Lấy dữ liệu mạng bằng Fetch API trong JavaScript</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-6-javascript-fetch-api/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-6-javascript-fetch-api/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-6-javascript-fetch-api/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-6-javascript-fetch-api/</guid>
       <description>&lt;h3 id=&#34;1-fetch-api-là-gì&#34;&gt;1. Fetch API là gì?&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;fetch()&lt;/code&gt; là một phương thức hiện đại trong JavaScript giúp chúng ta gửi các yêu cầu mạng (HTTP request) tới Server để lấy dữ liệu (thường là định dạng JSON).&lt;/p&gt;
 &lt;h3 id=&#34;2-ví-dụ-lấy-dữ-liệu-từ-một-api-công-khai&#34;&gt;2. Ví dụ lấy dữ liệu từ một API công khai&lt;/h3&gt;
@@ -212,9 +212,9 @@
     </item>
     <item>
       <title>Xây dựng ứng dụng Chat đơn giản với Java</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-5-java-mail-api/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-5-java-mail-api/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-5-java-mail-api/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-5-java-mail-api/</guid>
       <description>&lt;h3 id=&#34;1-ý-tưởng-hệ-thống-chat&#34;&gt;1. Ý tưởng hệ thống Chat&lt;/h3&gt;
 &lt;p&gt;Hệ thống Chat yêu cầu Server phải nhận tin nhắn từ một người và &amp;ldquo;phát tán&amp;rdquo; (broadcast) tin nhắn đó tới tất cả những người đang tham gia.&lt;/p&gt;
 &lt;h3 id=&#34;2-sử-dụng-printwriter-và-bufferedreader&#34;&gt;2. Sử dụng &lt;code&gt;PrintWriter&lt;/code&gt; và &lt;code&gt;BufferedReader&lt;/code&gt;&lt;/h3&gt;
@@ -230,16 +230,16 @@
     </item>
     <item>
       <title>Xu hướng phát triển Web 2026: WebGPU và AI-Native UI</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/cong-nghe-xin/xu-huong-web-2026/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/cong-nghe-xin/xu-huong-web-2026/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/cong-nghe-xin/xu-huong-web-2026/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/cong-nghe-xin/xu-huong-web-2026/</guid>
       <description>Phân tích sâu về sự dịch chuyển từ Web tĩnh sang kỷ nguyên Web 3D và giao diện sinh bởi AI.</description>
     </item>
     <item>
       <title>Xử lý bất đồng bộ với Async/Await trong JS</title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-7-async-await-network/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-7-async-await-network/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-7-async-await-network/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-7-async-await-network/</guid>
       <description>&lt;h3 id=&#34;1-tại-sao-cần-asyncawait&#34;&gt;1. Tại sao cần Async/Await?&lt;/h3&gt;
 &lt;p&gt;Khi gọi dữ liệu từ mạng, chúng ta không biết khi nào dữ liệu mới về. Thay vì làm trình duyệt bị &amp;ldquo;treo&amp;rdquo;, chúng ta dùng &lt;code&gt;async/await&lt;/code&gt; để đợi dữ liệu một cách mượt mà.&lt;/p&gt;
 &lt;h3 id=&#34;2-ví-dụ-thực-tế&#34;&gt;2. Ví dụ thực tế&lt;/h3&gt;
@@ -259,9 +259,9 @@
     </item>
     <item>
       <title></title>
-      <link>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/search/</link>
+      <link>https://anhthinguyen2644.github.io/Bloglaptrinh/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/AnhThiNguyen2644/Bloglaptrinh.git/search/</guid>
+      <guid>https://anhthinguyen2644.github.io/Bloglaptrinh/search/</guid>
       <description></description>
     </item>
   </channel>

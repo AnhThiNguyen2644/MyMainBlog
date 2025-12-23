@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/AnhThiNguyen2644/Bloglaptrinh.git/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=AnhThiNguyen2644/Bloglaptrinh.git/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Đóng gói và giải mã dữ liệu JSON | ❉Anh Thi BLOG❉</title>
+<meta name="keywords" content="">
+<meta name="description" content="1. JSON là gì?
+JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).
+2. Thao tác với JSON trong JS
+const user = { id: 1, name: &#34;AnhThi&#34; };
+
+// Chuyển đối tượng thành chuỗi để gửi đi
+const jsonString = JSON.stringify(user);
+
+// Chuyển chuỗi nhận được thành đối tượng để sử dụng
+const obj = JSON.parse(jsonString);
+
+
+### 1. JSON - Ngôn ngữ chung của Internet
+JSON (JavaScript Object Notation) đã thay thế hoàn toàn XML để trở thành tiêu chuẩn truyền tải dữ liệu giữa Server (Java) và Client (JS). Nó có cấu trúc phân cấp, gọn nhẹ và tiết kiệm băng thông tối đa cho người dùng di động.
+
+### 2. Thao tác nâng cao với JSON
+```javascript
+// Dữ liệu phức tạp từ Server Java gửi về
+const rawData = &#39;{&#34;id&#34;: 101, &#34;status&#34;: &#34;active&#34;, &#34;tags&#34;: [&#34;java&#34;, &#34;network&#34;]}&#39;;
+
+// Giải mã (Parsing)
+const project = JSON.parse(rawData);
+console.log(project.tags[0]); // Kết quả: java
+
+// Đóng gói (Stringify) với định dạng đẹp để debug
+const formattedJSON = JSON.stringify(project, null, 4);
+">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/">
+<link crossorigin="anonymous" href="/AnhThiNguyen2644/Bloglaptrinh.git/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/icon.png">
+<link rel="mask-icon" href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/">
+  <meta property="og:site_name" content="❉Anh Thi BLOG❉">
+  <meta property="og:title" content="Đóng gói và giải mã dữ liệu JSON">
+  <meta property="og:description" content="1. JSON là gì? JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).
+2. Thao tác với JSON trong JS const user = { id: 1, name: &#34;AnhThi&#34; }; // Chuyển đối tượng thành chuỗi để gửi đi const jsonString = JSON.stringify(user); // Chuyển chuỗi nhận được thành đối tượng để sử dụng const obj = JSON.parse(jsonString); ### 1. JSON - Ngôn ngữ chung của Internet JSON (JavaScript Object Notation) đã thay thế hoàn toàn XML để trở thành tiêu chuẩn truyền tải dữ liệu giữa Server (Java) và Client (JS). Nó có cấu trúc phân cấp, gọn nhẹ và tiết kiệm băng thông tối đa cho người dùng di động. ### 2. Thao tác nâng cao với JSON ```javascript // Dữ liệu phức tạp từ Server Java gửi về const rawData = &#39;{&#34;id&#34;: 101, &#34;status&#34;: &#34;active&#34;, &#34;tags&#34;: [&#34;java&#34;, &#34;network&#34;]}&#39;; // Giải mã (Parsing) const project = JSON.parse(rawData); console.log(project.tags[0]); // Kết quả: java // Đóng gói (Stringify) với định dạng đẹp để debug const formattedJSON = JSON.stringify(project, null, 4); ">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-19T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/anh8.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/anh8.png">
+<meta name="twitter:title" content="Đóng gói và giải mã dữ liệu JSON">
+<meta name="twitter:description" content="1. JSON là gì?
+JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).
+2. Thao tác với JSON trong JS
+const user = { id: 1, name: &#34;AnhThi&#34; };
+
+// Chuyển đối tượng thành chuỗi để gửi đi
+const jsonString = JSON.stringify(user);
+
+// Chuyển chuỗi nhận được thành đối tượng để sử dụng
+const obj = JSON.parse(jsonString);
+
+
+### 1. JSON - Ngôn ngữ chung của Internet
+JSON (JavaScript Object Notation) đã thay thế hoàn toàn XML để trở thành tiêu chuẩn truyền tải dữ liệu giữa Server (Java) và Client (JS). Nó có cấu trúc phân cấp, gọn nhẹ và tiết kiệm băng thông tối đa cho người dùng di động.
+
+### 2. Thao tác nâng cao với JSON
+```javascript
+// Dữ liệu phức tạp từ Server Java gửi về
+const rawData = &#39;{&#34;id&#34;: 101, &#34;status&#34;: &#34;active&#34;, &#34;tags&#34;: [&#34;java&#34;, &#34;network&#34;]}&#39;;
+
+// Giải mã (Parsing)
+const project = JSON.parse(rawData);
+console.log(project.tags[0]); // Kết quả: java
+
+// Đóng gói (Stringify) với định dạng đẹp để debug
+const formattedJSON = JSON.stringify(project, null, 4);
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Các bài viết gần đây",
+      "item": "http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Đóng gói và giải mã dữ liệu JSON",
+      "item": "http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Đóng gói và giải mã dữ liệu JSON",
+  "name": "Đóng gói và giải mã dữ liệu JSON",
+  "description": "1. JSON là gì? JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).\n2. Thao tác với JSON trong JS const user = { id: 1, name: \u0026#34;AnhThi\u0026#34; }; // Chuyển đối tượng thành chuỗi để gửi đi const jsonString = JSON.stringify(user); // Chuyển chuỗi nhận được thành đối tượng để sử dụng const obj = JSON.parse(jsonString); ### 1. JSON - Ngôn ngữ chung của Internet JSON (JavaScript Object Notation) đã thay thế hoàn toàn XML để trở thành tiêu chuẩn truyền tải dữ liệu giữa Server (Java) và Client (JS). Nó có cấu trúc phân cấp, gọn nhẹ và tiết kiệm băng thông tối đa cho người dùng di động. ### 2. Thao tác nâng cao với JSON ```javascript // Dữ liệu phức tạp từ Server Java gửi về const rawData = \u0026#39;{\u0026#34;id\u0026#34;: 101, \u0026#34;status\u0026#34;: \u0026#34;active\u0026#34;, \u0026#34;tags\u0026#34;: [\u0026#34;java\u0026#34;, \u0026#34;network\u0026#34;]}\u0026#39;; // Giải mã (Parsing) const project = JSON.parse(rawData); console.log(project.tags[0]); // Kết quả: java // Đóng gói (Stringify) với định dạng đẹp để debug const formattedJSON = JSON.stringify(project, null, 4); ",
+  "keywords": [
+    
+  ],
+  "articleBody": "1. JSON là gì? JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).\n2. Thao tác với JSON trong JS const user = { id: 1, name: \"AnhThi\" }; // Chuyển đối tượng thành chuỗi để gửi đi const jsonString = JSON.stringify(user); // Chuyển chuỗi nhận được thành đối tượng để sử dụng const obj = JSON.parse(jsonString); ### 1. JSON - Ngôn ngữ chung của Internet JSON (JavaScript Object Notation) đã thay thế hoàn toàn XML để trở thành tiêu chuẩn truyền tải dữ liệu giữa Server (Java) và Client (JS). Nó có cấu trúc phân cấp, gọn nhẹ và tiết kiệm băng thông tối đa cho người dùng di động. ### 2. Thao tác nâng cao với JSON ```javascript // Dữ liệu phức tạp từ Server Java gửi về const rawData = '{\"id\": 101, \"status\": \"active\", \"tags\": [\"java\", \"network\"]}'; // Giải mã (Parsing) const project = JSON.parse(rawData); console.log(project.tags[0]); // Kết quả: java // Đóng gói (Stringify) với định dạng đẹp để debug const formattedJSON = JSON.stringify(project, null, 4); ",
+  "wordCount" : "185",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/anh8.png","datePublished": "2025-12-19T00:00:00Z",
+  "dateModified": "2025-12-19T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/bai-8-json-parsing-javascript/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "❉Anh Thi BLOG❉",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/icon.png"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/" accesskey="h" title="❉Anh Thi BLOG❉ (Alt + H)">❉Anh Thi BLOG❉</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/posts/" title="Bài viết">
+                    <span>Bài viết</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/cong-nghe-xin/" title="Công nghệ xịn">
+                    <span>Công nghệ xịn</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/tags/" title="🏷️ Chủ đề">
+                    <span>🏷️ Chủ đề</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Đóng gói và giải mã dữ liệu JSON
+    </h1>
+    <div class="post-meta"><span title='2025-12-19 00:00:00 +0000 UTC'>December 19, 2025</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/anh8.png" alt="Mô hình kết nối TCP">
+        <figcaption>Mô hình Client-Server cơ bản</figcaption>
+</figure>
+  <div class="post-content"><h3 id="1-json-là-gì">1. JSON là gì?<a hidden class="anchor" aria-hidden="true" href="#1-json-là-gì">#</a></h3>
+<p>JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, dễ đọc, được dùng để trao đổi dữ liệu giữa Server (Java) và Client (JavaScript).</p>
+<h3 id="2-thao-tác-với-json-trong-js">2. Thao tác với JSON trong JS<a hidden class="anchor" aria-hidden="true" href="#2-thao-tác-với-json-trong-js">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;AnhThi&#34;</span> };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Chuyển đối tượng thành chuỗi để gửi đi
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">jsonString</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">user</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Chuyển chuỗi nhận được thành đối tượng để sử dụng
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">obj</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">parse</span>(<span style="color:#a6e22e">jsonString</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">###</span> <span style="color:#ae81ff">1.</span> <span style="color:#a6e22e">JSON</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">Ngôn</span> <span style="color:#a6e22e">ngữ</span> <span style="color:#a6e22e">chung</span> <span style="color:#a6e22e">của</span> <span style="color:#a6e22e">Internet</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">JSON</span> (<span style="color:#a6e22e">JavaScript</span> Object <span style="color:#a6e22e">Notation</span>) <span style="color:#a6e22e">đã</span> <span style="color:#a6e22e">thay</span> <span style="color:#a6e22e">thế</span> <span style="color:#a6e22e">hoàn</span> <span style="color:#a6e22e">toàn</span> <span style="color:#a6e22e">XML</span> <span style="color:#a6e22e">để</span> <span style="color:#a6e22e">trở</span> <span style="color:#a6e22e">thành</span> <span style="color:#a6e22e">tiêu</span> <span style="color:#a6e22e">chuẩn</span> <span style="color:#a6e22e">truyền</span> <span style="color:#a6e22e">tải</span> <span style="color:#a6e22e">dữ</span> <span style="color:#a6e22e">liệu</span> <span style="color:#a6e22e">giữa</span> <span style="color:#a6e22e">Server</span> (<span style="color:#a6e22e">Java</span>) <span style="color:#a6e22e">và</span> <span style="color:#a6e22e">Client</span> (<span style="color:#a6e22e">JS</span>). <span style="color:#a6e22e">Nó</span> <span style="color:#a6e22e">có</span> <span style="color:#a6e22e">cấu</span> <span style="color:#a6e22e">trúc</span> <span style="color:#a6e22e">phân</span> <span style="color:#a6e22e">cấp</span>, <span style="color:#a6e22e">gọn</span> <span style="color:#a6e22e">nhẹ</span> <span style="color:#a6e22e">và</span> <span style="color:#a6e22e">tiết</span> <span style="color:#a6e22e">kiệm</span> <span style="color:#a6e22e">băng</span> <span style="color:#a6e22e">thông</span> <span style="color:#a6e22e">tối</span> <span style="color:#a6e22e">đa</span> <span style="color:#a6e22e">cho</span> <span style="color:#a6e22e">người</span> <span style="color:#a6e22e">dùng</span> <span style="color:#a6e22e">di</span> <span style="color:#a6e22e">động</span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">###</span> <span style="color:#ae81ff">2.</span> <span style="color:#a6e22e">Thao</span> <span style="color:#a6e22e">tác</span> <span style="color:#a6e22e">nâng</span> <span style="color:#a6e22e">cao</span> <span style="color:#a6e22e">với</span> <span style="color:#a6e22e">JSON</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">```javascript
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">// Dữ liệu phức tạp từ Server Java gửi về
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">const rawData = &#39;{&#34;id&#34;: 101, &#34;status&#34;: &#34;active&#34;, &#34;tags&#34;: [&#34;java&#34;, &#34;network&#34;]}&#39;;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">// Giải mã (Parsing)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">const project = JSON.parse(rawData);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">console.log(project.tags[0]); // Kết quả: java
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">// Đóng gói (Stringify) với định dạng đẹp để debug
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">const formattedJSON = JSON.stringify(project, null, 4);
+</span></span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/AnhThiNguyen2644/Bloglaptrinh.git/">❉Anh Thi BLOG❉</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div id="clock-widget" style="
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px; 
+    background: rgba(29, 30, 32, 0.9); 
+    color: #fff; 
+    padding: 10px 15px; 
+    border-radius: 12px; 
+    font-family: 'Courier New', monospace; 
+    z-index: 9999; 
+    border: 1px solid #3b82f6; 
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+">
+    <div id="live-time" style="font-size: 1.5rem; font-weight: bold; color: #60a5fa; text-shadow: 0 0 5px #60a5fa;">00:00:00</div>
+    <div id="live-date" style="font-size: 0.8rem; color: #9ca3af; margin-top: 2px;">Đang tải...</div>
+</div>
+
+<script>
+    function updateClock() {
+        const now = new Date();
+        const timeOptions = { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' };
+        const dateOptions = { weekday: 'long', day: 'numeric', month: 'numeric', year: 'numeric' };
+        
+        document.getElementById('live-time').innerText = now.toLocaleTimeString('vi-VN', timeOptions);
+        document.getElementById('live-date').innerText = now.toLocaleDateString('vi-VN', dateOptions);
+    }
+    setInterval(updateClock, 1000); 
+    updateClock(); 
+</script>
+
+<script>
+
+const textElement = document.querySelector('.entry-content');
+if (textElement && window.location.pathname === '/') {
+    const text = textElement.innerText;
+    textElement.innerText = '';
+    let i = 0;
+    function typeWriter() {
+        if (i < text.length) {
+            textElement.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 30); 
+        }
+    }
+    typeWriter();
+}
+</script>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

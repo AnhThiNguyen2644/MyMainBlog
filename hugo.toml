@@ -1,0 +1,56 @@
+baseURL = 'https://github.com/AnhThiNguyen2644/Bloglaptrinh.git'
+publishDir = "docs"
+languageCode = 'vi'
+title = '❉Anh Thi BLOG❉'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    title = "Blog Đồ Án - Nguyễn Quỳnh Anh Thi"
+    defaultTheme = "auto"
+    
+    [params.assets]
+        favicon = "/icon.png"
+        favicon16x16 = "/icon.png"
+        favicon32x32 = "/icon.png"
+        apple_touch_icon = "/icon.png"
+    
+    # --- CÁC TÍNH NĂNG GIAO DIỆN ---
+    ShowCodeCopyButtons = true
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowToc = true
+    ShowBreadCrumbs = true
+
+    [params.toc]
+        open = true
+
+    [params.homeInfoParams]
+        Title = "Chào mừng bạn đến với Blog cá nhân của Thi ! 👋"
+        Content = "Nơi chia sẻ bài viết về Java, JavaScript và Công nghệ mới phục vụ học phần Lập trình mạng."
+
+    
+
+[[menu.main]]
+    identifier = "posts"
+    name = "Bài viết"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "about"
+    name = "Giới thiệu"
+    url = "/about/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "cong-nghe-xin"
+    name = "Công nghệ xịn"
+    url = "/cong-nghe-xin/"
+    weight = 30
+
+[[menu.main]]
+    identifier = "tags"
+    name = "🏷️ Chủ đề"
+    url = "/tags/"
+    weight = 40

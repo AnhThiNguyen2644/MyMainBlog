@@ -5,7 +5,7 @@ date: 2025-12-19
 draft: false
 ---
 
-![Avatar của tôi](/avatar.jpg)
+![Avatar của tôi](/Bloglaptrinh/avatar.jpg)
 
 Chào mừng thầy và các bạn đã ghé thăm Blog cá nhân của mình. 👋
 Đây là nơi mình lưu trữ các kiến thức, bài tập thực hành và đồ án kết thúc học phần **Lập trình mạng**.

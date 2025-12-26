@@ -6,7 +6,7 @@ description: "Phân tích sâu về sự dịch chuyển từ Web tĩnh sang k�
 
 # --- PHẦN ẢNH BÌA (Phải đặt ở đây mới đúng) ---
 cover:
-    image: "/congnghe2.webp"
+    image: "/Bloglaptrinh/congnghe2.webp"
     alt: "Minh họa WebGPU"
     caption: "WebGPU - Tương lai của đồ họa trên trình duyệt"
     relative: false

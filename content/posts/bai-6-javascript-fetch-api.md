@@ -3,7 +3,7 @@ title: "Lấy dữ liệu mạng bằng Fetch API trong JavaScript"
 date: 2025-12-19
 draft: false
 cover:
-    image: "/bai6.png"  # Đường dẫn ảnh trong thư mục static
+    image: "/Bloglaptrinh/bai6.png"  # Đường dẫn ảnh trong thư mục static
     alt: "Mô hình kết nối TCP" # Chữ hiện ra nếu ảnh lỗi
     caption: "Mô hình Client-Server cơ bản" # Chú thích nhỏ dưới ảnh
     relative: false # Để false để dùng đường dẫn tuyệt đối từ static

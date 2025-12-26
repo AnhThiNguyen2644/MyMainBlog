@@ -5,7 +5,7 @@ draft: false
 description: "Sự khác biệt giữa Chatbot thụ động và AI Agent chủ động - tương lai của tự động hóa."
 
 cover:
-    image: "/congnghe1.png"   
+    image: "/Bloglaptrinh/congnghe1.png"   
     alt: "Minh họa AI Agent đa nhiệm"
     caption: "AI Agent: Từ Chatbot đến trợ lý toàn năng"
     relative: false 

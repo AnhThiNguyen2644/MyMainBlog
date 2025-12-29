@@ -123,7 +123,7 @@ layout: "index"
 <div class="home-container">
 
 <div class="hero-section">
-    <img src="/Bloglaptrinh/avatar1.jpg" alt="Avatar Nguyễn Quỳnh Anh Thi" class="hero-avatar">
+    <img src="/avatar1.jpg" alt="Avatar Nguyễn Quỳnh Anh Thi" class="hero-avatar">
     
 <div class="hero-name">Nguyễn Quỳnh Anh Thi 👋</div>
 
@@ -143,7 +143,7 @@ Blog này ban đầu chỉ là nơi để nộp đồ án, nhưng dần dần m�
 </p>
 <p style="text-align: center; margin-top: 20px;">
 Nếu bạn đang tìm tài liệu học tập hay muốn đọc giải trí về đời sinh viên IT:<br>
-<a href="/Bloglaptrinh/posts/" class="btn-read-more">📖 Xem Danh sách Bài viết</a>
+<a href="/posts/" class="btn-read-more">📖 Xem Danh sách Bài viết</a>
 </p>
 </div>
 </div>

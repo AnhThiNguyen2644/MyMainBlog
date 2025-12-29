@@ -4,13 +4,13 @@ date: 2025-12-19
 draft: false
 description: "Phân tích sâu về sự dịch chuyển từ Web tĩnh sang kỷ nguyên Web 3D và giao diện sinh bởi AI."
 
-# --- PHẦN ẢNH BÌA (Phải đặt ở đây mới đúng) ---
+
 cover:
-    image: "/Bloglaptrinh/congnghe2.webp"
+    image: "/congnghe2.webp"
     alt: "Minh họa WebGPU"
     caption: "WebGPU - Tương lai của đồ họa trên trình duyệt"
     relative: false
-# --- KẾT THÚC PHẦN ĐẦU ---
+
 ---
 
 Thế giới công nghệ Web thay đổi từng giờ. Những gì chúng ta đang học hôm nay như React hay Angular có thể sẽ trở thành "di sản" vào năm 2026. Bài viết này sẽ phân tích 3 xu hướng chủ đạo sẽ định hình lại toàn bộ ngành lập trình Web trong 2 năm tới.

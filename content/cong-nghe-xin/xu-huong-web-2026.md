@@ -6,7 +6,7 @@ description: "Phân tích sâu về sự dịch chuyển từ Web tĩnh sang k�
 
 
 cover:
-    image: "/congnghe2.webp"
+    image: "/MyMainBlog/congnghe2.webp"
     alt: "Minh họa WebGPU"
     caption: "WebGPU - Tương lai của đồ họa trên trình duyệt"
     relative: false
@@ -20,7 +20,7 @@ Thế giới công nghệ Web thay đổi từng giờ. Những gì chúng ta đ
 
 > **WebGPU là gì?** Nó là một API hiện đại cho phép render đồ họa 3D và tính toán song song với hiệu suất cao gấp nhiều lần so với công nghệ hiện tại.
 
-![WebGPU Architecture](/congnghe2.webp)
+![WebGPU Architecture](/MyMainBlog/congnghe2.webp)
 *Hình mô phỏng: Sức mạnh xử lý đồ họa ngay trên trình duyệt.*
 
 **Ứng dụng thực tế:**

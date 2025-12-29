@@ -140,7 +140,7 @@ summary: "profile"
 <div class="about-container">
 
 <div class="about-header">
-    <img src="/avatar1.jpg" alt="Avatar Nguyễn Quỳnh Anh Thi" class="about-avatar">
+    <img src="/MyMainBlog/avatar1.jpg" alt="Avatar Nguyễn Quỳnh Anh Thi" class="about-avatar">
     <p style="margin-top: 20px; font-size: 16px; font-style: italic; opacity: 0.9;">
         "Chào mừng thầy và các bạn đã ghé thăm Blog cá nhân của mình. 👋"
     </p>
@@ -193,14 +193,14 @@ summary: "profile"
 <div class="content-box">
     <div class="section-title">🏆 Chứng chỉ & Bằng cấp</div>
     <div class="cert-grid">
-        <a href="/chung-chi/chungchi1.PNG" target="_blank" class="cert-item">
-            <img src="/chung-chi/chungchi1.PNG" alt="Chứng chỉ 1" class="cert-img">
+        <a href="/MyMainBlog/chung-chi/chungchi1.PNG" target="_blank" class="cert-item">
+            <img src="/MyMainBlog/chung-chi/chungchi1.PNG" alt="Chứng chỉ 1" class="cert-img">
         </a>
-        <a href="/chung-chi/chungchi2.PNG" target="_blank" class="cert-item">
-            <img src="/chung-chi/chungchi2.PNG" alt="Chứng chỉ 2" class="cert-img">
+        <a href="/MyMainBlog/chung-chi/chungchi2.PNG" target="_blank" class="cert-item">
+            <img src="/MyMainBlog/chung-chi/chungchi2.PNG" alt="Chứng chỉ 2" class="cert-img">
         </a>
-        <a href="/chung-chi/chungchi3.PNG" target="_blank" class="cert-item">
-            <img src="/chung-chi/chungchi3.PNG" alt="Chứng chỉ 3" class="cert-img">
+        <a href="/MyMainBlog/chung-chi/chungchi3.PNG" target="_blank" class="cert-item">
+            <img src="/MyMainBlog/chung-chi/chungchi3.PNG" alt="Chứng chỉ 3" class="cert-img">
         </a>
     </div>
 </div>

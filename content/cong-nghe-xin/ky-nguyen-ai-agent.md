@@ -5,7 +5,7 @@ draft: false
 description: "Sự khác biệt giữa Chatbot thụ động và AI Agent chủ động - tương lai của tự động hóa."
 
 cover:
-    image: "/congnghe1.png"   
+    image: "/MyMainBlog/congnghe1.png"   
     alt: "Minh họa AI Agent đa nhiệm"
     caption: "AI Agent: Từ Chatbot đến trợ lý toàn năng"
     relative: false 
@@ -27,7 +27,7 @@ Một AI Agent hoạt động dựa trên vòng lặp vô tận cho đến khi h
 3.  **Action (Hành động):** Tự động mở Terminal, gõ lệnh, tạo file, debug lỗi.
 4.  **Criticism (Tự phê bình):** Kiểm tra xem kết quả có đúng không? Nếu sai, tự sửa lại.
 
-![Logic và cách mà AI học hỏi](/congnghe11.png)
+![Logic và cách mà AI học hỏi](/MyMainBlog/congnghe11.png)
 *Hình 2: Logic và cách mà AI học hỏi.*
 
 ### 3. Devin - Kỹ sư phần mềm AI đầu tiên

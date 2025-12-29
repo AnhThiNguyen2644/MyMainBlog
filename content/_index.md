@@ -143,7 +143,7 @@ Blog này ban đầu chỉ là nơi để nộp đồ án, nhưng dần dần m�
 </p>
 <p style="text-align: center; margin-top: 20px;">
 Nếu bạn đang tìm tài liệu học tập hay muốn đọc giải trí về đời sinh viên IT:<br>
-<a href="/posts/" class="btn-read-more">📖 Xem Danh sách Bài viết</a>
+<a href="/MyMainBlog/posts/" class="btn-read-more">📖 Xem Danh sách Bài viết</a>
 </p>
 </div>
 </div>

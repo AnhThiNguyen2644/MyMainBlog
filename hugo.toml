@@ -25,15 +25,10 @@ theme = "PaperMod"
     [params.toc]
         open = true
 
-    [params.homeInfoParams]
-        Title = "Chào mừng bạn đến với Blog cá nhân của Thi ! 👋"
-        Content = "Nơi chia sẻ bài viết về Java, JavaScript và Công nghệ mới phục vụ học phần Lập trình mạng."
-
-    
-
+# --- MENU ---
 [[menu.main]]
     identifier = "posts"
-    name = "Bài viết"
+    name = "📖 Danh sách Bài viết" 
     url = "/posts/"
     weight = 10
 
@@ -54,3 +49,9 @@ theme = "PaperMod"
     name = "🏷️ Chủ đề"
     url = "/tags/"
     weight = 40
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

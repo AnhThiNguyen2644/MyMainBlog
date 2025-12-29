@@ -1,0 +1,43 @@
+/* 1. Căn giữa toàn bộ khung chào mừng */
+.first-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* 2. Chỉnh TITLE (Chào mừng...) bé lại và màu xám */
+.first-entry .entry-header h1 {
+    font-size: 16px !important; /* Ép chữ bé lại */
+    color: #aaaaaa !important;  /* Màu xám nhẹ */
+    font-weight: normal;        /* Bỏ in đậm */
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+/* 3. Chỉnh SLOGAN (Content) to ra, font Times, màu trắng */
+.first-entry .entry-content {
+    font-family: 'Times New Roman', Times, serif; /* Font có chân */
+    font-size: 32px !important; /* Chữ to */
+    font-weight: bold;
+    font-style: italic; /* In nghiêng */
+    color: #ffffff !important; /* Màu trắng */
+    margin-top: 10px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3); /* Hiệu ứng phát sáng nhẹ */
+}
+
+/* 1. Ẩn danh sách bài viết ở Trang chủ */
+.home .post-entry {
+    display: none !important;
+}
+
+/* 2. Ẩn thanh chuyển trang (1, 2, Next...) ở Trang chủ */
+.home .pagination {
+    display: none !important;
+}
+
+/* 3. (Tuỳ chọn) Ẩn luôn tiêu đề "Trang chủ" nếu nó hiện to đùng trên đầu */
+.home .first-entry h1 {
+    display: none;
+}

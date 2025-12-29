@@ -2,65 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Bloglaptrinh/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/</loc>
     <lastmod>2025-12-19T18:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/cong-nghe-xin/</loc>
-    <lastmod>2025-12-19T18:31:29+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-1-socket-tcp-java/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-1-socket-tcp-java/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-3-multithreading-socket/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-3-multithreading-socket/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-8-json-parsing-javascript/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-8-json-parsing-javascript/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-2-socket-udp-java/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-2-socket-udp-java/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/about/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/about/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-9-websocket-basics/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-9-websocket-basics/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/tags/java/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/tags/java/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/cong-nghe-xin/ky-nguyen-ai-agent/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/cong-nghe-xin/ky-nguyen-ai-agent/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-4-file-transfer-java/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-4-file-transfer-java/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-6-javascript-fetch-api/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-6-javascript-fetch-api/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/tags/socket/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/tags/socket/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/tags/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/tags/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-5-java-mail-api/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-5-java-mail-api/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/cong-nghe-xin/xu-huong-web-2026/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/cong-nghe-xin/xu-huong-web-2026/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/posts/bai-7-async-await-network/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/posts/bai-7-async-await-network/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/search/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/Bloglaptrinh/categories/</loc>
+    <loc>https://anhthinguyen2644.github.io/Bloglaptrinh/categories/</loc>
   </url>
 </urlset>

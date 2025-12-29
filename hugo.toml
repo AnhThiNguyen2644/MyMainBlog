@@ -1,5 +1,4 @@
 baseURL = 'https://anhthinguyen2644.github.io/MyMainBlog/'
-publishDir = "docs"
 languageCode = 'vi'
 title = '❉Anh Thi BLOG❉'
 theme = "PaperMod"

@@ -9,7 +9,7 @@ theme = "PaperMod"
     defaultTheme = "auto"
     
     [params.assets]
-        favicon = "/icon.png"
+        favicon = "/MyMainBlog/icon.png"
         favicon16x16 = "/icon.png"
         favicon32x32 = "/icon.png"
         apple_touch_icon = "/icon.png"
